@@ -8,10 +8,10 @@ body{
 
     position: fixed;
     left: 710px;
-    top: 160px;
+    top: 120px;
     border-radius: 50%;
 }
-p {
+.info {
 
     color: white;
     /*font-style: ;*/
@@ -43,14 +43,14 @@ div.zz{
     
     position: fixed;
     left: 510px;
-    top: 280px;
+    top: 300px;
     
 }
 
 .zz2{
     position: fixed;
     left: 710px;
-    top: 280px;
+    top: 300px;
     
 }
 
@@ -59,7 +59,7 @@ div.zz{
     height: auto;
     position: fixed;
     left: 910px;
-    top: 280px;
+    top: 300px;
     
 }
 
@@ -82,6 +82,29 @@ b {
     left: 50px;
     bottom: 50px;
 }
+
+.bio {
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 660px;
+    top: 250px;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 690px;
+    top: 220px;
+}
+
+
+
+
+
+
+
 
 
 
