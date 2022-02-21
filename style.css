@@ -12,7 +12,9 @@ body{
     border-radius: 50%;
 }
 .info {
-
+    position: fixed;
+    left: 10px;
+    top: 10;
     color: white;
     /*font-style: ;*/
     font-style: oblique;
