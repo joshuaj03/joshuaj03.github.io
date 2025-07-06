@@ -337,10 +337,10 @@ section {
 #skills {
     position: relative;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 #tagCanvas {
@@ -362,6 +362,16 @@ section {
   font-weight: 600;  
   color: rgb(53,53,53); 
   text-decoration: none;
+}
+
+.skill-contianer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 
