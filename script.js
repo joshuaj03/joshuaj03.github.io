@@ -6,6 +6,20 @@ function toggleMenu() {
     icon.classList.toggle("open");
 };
 
+// Typed.js setup for dynamic text
+document.addEventListener("DOMContentLoaded", function () {
+  new Typed("#typed-text", {
+    strings: ["Coder", "Gamers", "Tech Enthusiast", "Game Developer", "Engineer", "B.Tech CSE"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true,
+    cursorChar: "|",
+    showCursor: true,
+    // startDelay: 500,
+    // backDelay: 1000
+  });
+});
+
 // TagCloud Setup
 document.addEventListener("DOMContentLoaded", function () {
   if ($("#tagCanvas").length) {

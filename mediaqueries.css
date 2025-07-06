@@ -105,6 +105,10 @@
         flex-wrap: wrap;
     }
 
+    .details-container {
+        text-align: justify;
+    }
+
     .contact-info-container {
         margin: 0;
     }
