@@ -9,14 +9,14 @@ function toggleMenu() {
 // Typed.js setup for dynamic text
 document.addEventListener("DOMContentLoaded", function () {
   new Typed("#typed-text", {
-    strings: ["Coder", "Gamers", "Tech Enthusiast", "Game Developer", "Engineer", "B.Tech CSE"],
+    strings: ["Coder.", "Gamers.", "Tech Enthusiast.", "Game Developer.", "Engineer.", "B.Tech CSE."],
     typeSpeed: 100,
-    backSpeed: 50,
+    backSpeed: 100,
     loop: true,
     cursorChar: "|",
     showCursor: true,
-    // startDelay: 500,
-    // backDelay: 1000
+    startDelay: 1000,
+    backDelay: 1000
   });
 });
 
