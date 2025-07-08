@@ -59,6 +59,12 @@ a:hover {
     text-decoration-color: rgb(181,181,181);
 }
 
+.home-link:hover .home-icon {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+}
+
 .logo {
     font-size: 2rem;
 }
